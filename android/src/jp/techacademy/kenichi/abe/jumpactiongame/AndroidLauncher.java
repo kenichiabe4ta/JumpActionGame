@@ -14,9 +14,6 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
-import jp.techacademy.taro.kirameki.jumpactiongame.R;
-
-
 public class AndroidLauncher extends AndroidApplication implements ActivityRequestHandler {
 	AdView mAdView;
 
