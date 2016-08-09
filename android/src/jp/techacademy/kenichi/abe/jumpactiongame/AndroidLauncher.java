@@ -48,7 +48,7 @@ public class AndroidLauncher extends AndroidApplication implements ActivityReque
 
 		mAdView = new AdView(this);
 		mAdView.setAdSize(AdSize.BANNER);
-		mAdView.setAdUnitId(getResources().getString(R.string.banner_ad_unit_id));
+		mAdView.setAdUnitId(getResources().getString(R.string.banner_ad_unit_id));	//Rもエラー発生
 		mAdView.setVisibility(View.INVISIBLE);
 		mAdView.setBackgroundColor(Color.BLACK);
 		AdRequest adRequest = new AdRequest.Builder().build();
